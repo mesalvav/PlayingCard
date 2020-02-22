@@ -13,6 +13,8 @@
 		ABBED7592401850400FEAA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBED7572401850400FEAA0F /* Main.storyboard */; };
 		ABBED75B2401850600FEAA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBED75A2401850600FEAA0F /* Assets.xcassets */; };
 		ABBED75E2401850600FEAA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBED75C2401850600FEAA0F /* LaunchScreen.storyboard */; };
+		ABBED767240185DC00FEAA0F /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBED766240185DC00FEAA0F /* PlayingCard.swift */; };
+		ABBED76924018BFB00FEAA0F /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBED76824018BFB00FEAA0F /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ABBED75A2401850600FEAA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBED75D2401850600FEAA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBED75F2401850600FEAA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBED766240185DC00FEAA0F /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		ABBED76824018BFB00FEAA0F /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		ABBED7502401850400FEAA0F /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				ABBED7512401850400FEAA0F /* AppDelegate.swift */,
-				ABBED7532401850400FEAA0F /* SceneDelegate.swift */,
+				ABBED7652401854500FEAA0F /* SupportingFiles */,
 				ABBED7552401850400FEAA0F /* ViewController.swift */,
 				ABBED7572401850400FEAA0F /* Main.storyboard */,
 				ABBED75A2401850600FEAA0F /* Assets.xcassets */,
-				ABBED75C2401850600FEAA0F /* LaunchScreen.storyboard */,
 				ABBED75F2401850600FEAA0F /* Info.plist */,
+				ABBED766240185DC00FEAA0F /* PlayingCard.swift */,
+				ABBED76824018BFB00FEAA0F /* PlayingCardDeck.swift */,
 			);
 			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		ABBED7652401854500FEAA0F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ABBED7532401850400FEAA0F /* SceneDelegate.swift */,
+				ABBED75C2401850600FEAA0F /* LaunchScreen.storyboard */,
+				ABBED7512401850400FEAA0F /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				ABBED7562401850400FEAA0F /* ViewController.swift in Sources */,
 				ABBED7522401850400FEAA0F /* AppDelegate.swift in Sources */,
+				ABBED76924018BFB00FEAA0F /* PlayingCardDeck.swift in Sources */,
+				ABBED767240185DC00FEAA0F /* PlayingCard.swift in Sources */,
 				ABBED7542401850400FEAA0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
