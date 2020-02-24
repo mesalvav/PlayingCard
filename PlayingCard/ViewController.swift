@@ -16,7 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         for _ in 2...10 {
+            
             if let card = deck.draw() {
+                // card.rank.order
                 print("\(card)")
             }
         }
